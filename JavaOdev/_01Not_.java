@@ -28,9 +28,13 @@ public class _01Not_ {
         System.out.println("---------------------\nNot Ortalamanız\n---------------------");
         System.out.println("Ortalamanız:\t"+ort);
         System.out.println("---------------------\nGeçme Durumu\n---------------------");
+        //Java ile Yazımı
+        String str=ort>60 ? "Gectiniz" : "Kaldınız";
+        System.out.println(str);
+        /* //'if' ile yazım
         if(ort>60)
             System.out.print("Sınıfı Geçtiniz Tebrikler");
         else
-            System.out.print("Sınıfı Tekrarı Etmelisiniz.Üzgünüm..");
+            System.out.print("Sınıfı Tekrarı Etmelisiniz.Üzgünüm..") */
     }
 }
