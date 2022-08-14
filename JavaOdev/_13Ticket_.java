@@ -20,6 +20,7 @@ public class _13Ticket_ {
         if ((km >= 200 && age > 0) && (way > 0 && way < 3)) {
             if (way == 2) {
                 result =(result)-((result*20)/100);
+                result *=2;
             }
 
             if (age < 12) {
